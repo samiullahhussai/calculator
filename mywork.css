@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    font-family: sans-serif;
+    background-image: url(coding\ pic.jpg) ;
+    background-size: cover;
+    font-weight: bold;
+}
+#container{
+margin: 20px auto;
+border: 1px solid rgb(10, 230, 21);
+border-radius: 30px;
+box-shadow: 0 0 0 0.5 inset;
+width: 430px;
+background: rgba(0, 0, 0, .5);
+}
+
+#input{
+    text-align: right;
+    background: rgba(0, 0, 0, .3);
+    font-size: 60px;
+    width: 388px;
+    height: 140px;
+    color: white;
+    border: none;
+    box-shadow:inset 0 0 3px;
+    border-radius: 30px;
+    margin: 20px 20px 20px 20px;
+    }
+    #input::placeholder{
+        color: white;
+        font-weight: bold;
+    }
+
+    .btn{
+        padding: auto;
+        width: 60px;
+        height: 60px;
+        border: 1px solid white;
+        background-color: rgba(0,0,0,.3);
+        color: white;
+        margin:10px 20px;
+        font-weight: 900;
+        border-radius: 43%;
+        font-size: 20px;
+    }
+    .operator{
+    color: rgba(241, 207, 14 ,.8);
+    }
+
+    .eq{
+        background-color: rgb(248, 178, 2);
+        color: white;
+        }
+
+        .btn:hover{
+            background-color: rgb(248, 178, 2);
+        color: white;
+        }
